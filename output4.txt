@@ -1,0 +1,300 @@
+﻿===== PHRASES AND FREQUENCIES =====
+             phrase  freq
+     counter attack    21
+         high press    75
+            xg model    68
+         deep block    24
+         false nine    93
+       box midfield    64
+           set piece    77
+        through ball    80
+      pressing trap    84
+          low block    20
+    overlapping run    90
+  inverted fullback    86
+     expected goals    25
+   progressive pass    35
+           shot map    83
+      ball recovery    96
+        second ball    82
+       rest defense    82
+      wing overload    70
+    transition phase    73
+
+
+===== CO-OCCURRENCE MATRIX (COUNTS) =====
+                     counter attack  high press  xg model  deep block  \
+counter attack                   0         20        18          6   
+high press                     20          0        22         10   
+xg model                       18         22         0         20   
+deep block                      6         10        20          0   
+false nine                     17         65        30         23   
+box midfield                   15         44        23         20   
+set piece                      20         65        28         23   
+through ball                   19         59        43         22   
+pressing trap                  16         46        32         10   
+low block                       9         10         9          9   
+overlapping run                15         65        55         16   
+inverted fullback              21         55        37         23   
+expected goals                 16         25        23          9   
+progressive pass               10         19        26          9   
+shot map                       21         62        35         22   
+ball recovery                  18         59        56         12   
+second ball                    20         55        49          9   
+rest defense                   13         49        45         13   
+wing overload                  15         47        35         19   
+transition phase               14         58        36         15   
+
+
+                     false nine  box midfield  set piece  through ball  \
+counter attack               17           15         20           19   
+high press                   65           44         65           59   
+xg model                     30           23         28           43   
+deep block                   23           20         23           22   
+false nine                    0           55         70           79   
+box midfield                 55            0         50           45   
+set piece                    70           50          0           55   
+through ball                 79           45         55            0   
+pressing trap                52           33         47           51   
+low block                    17           12          7           16   
+overlapping run              77           44         57           64   
+inverted fullback            55           39         41           47   
+expected goals               18           18         21           15   
+progressive pass             23           20         30           24   
+shot map                     62           39         53           57   
+ball recovery                63           45         56           58   
+second ball                  55           39         49           46   
+rest defense                 35           41         40           40   
+wing overload                48           34         38           40   
+transition phase             48           34         45           47   
+
+
+                     pressing trap  low block  overlapping run  \
+counter attack                  16         9               15   
+high press                      46        10               65   
+xg model                        32         9               55   
+deep block                      10         9               16   
+false nine                      52        17               77   
+box midfield                    33        12               44   
+set piece                       47         7               57   
+through ball                    51        16               64   
+pressing trap                    0        10               50   
+low block                       10         0               14   
+overlapping run                 50        14                0   
+inverted fullback               46         9               64   
+expected goals                  19         7               20   
+progressive pass                23        11               26   
+shot map                        46        11               64   
+ball recovery                   49        10               61   
+second ball                     41        12               62   
+rest defense                    37        10               44   
+wing overload                   38         9               42   
+transition phase                42        10               50   
+
+
+                     inverted fullback  expected goals  progressive pass  \
+counter attack                      21              16                10   
+high press                          55              25                19   
+xg model                            37              23                26   
+deep block                          23               9                 9   
+false nine                          55              18                23   
+box midfield                        39              18                20   
+set piece                           41              21                30   
+through ball                        47              15                24   
+pressing trap                       46              19                23   
+low block                            9               7                11   
+overlapping run                     64              20                26   
+inverted fullback                   0              18                27   
+expected goals                      18               0                13   
+progressive pass                    27              13                 0   
+shot map                            51              21                26   
+ball recovery                       52              15                26   
+second ball                         44              23                19   
+rest defense                        40              18                22   
+wing overload                       42              14                23   
+transition phase                    47              22                25   
+
+
+                     shot map  ball recovery  second ball  rest defense  \
+counter attack             21            18           20            13   
+high press                 62            59           55            49   
+xg model                   35            56           49            45   
+deep block                 22            12            9            13   
+false nine                 62            63           55            35   
+box midfield               39            45           39            41   
+set piece                  53            56           49            40   
+through ball               57            58           46            40   
+pressing trap              46            49           41            37   
+low block                  11            10           12            10   
+overlapping run            64            61           62            44   
+inverted fullback          51            52           44            40   
+expected goals             21            15           23            18   
+progressive pass           26            26           19            22   
+shot map                    0            52           51            45   
+ball recovery              52             0           52            43   
+second ball                51            52            0            39   
+rest defense               45            43           39             0   
+wing overload              43            39           39            38   
+transition phase           49            43           43            43   
+
+
+                     wing overload  transition phase  
+counter attack                  15                14  
+high press                      47                58  
+xg model                        35                36  
+deep block                      19                15  
+false nine                      48                48  
+box midfield                    34                34  
+set piece                       38                45  
+through ball                    40                47  
+pressing trap                   38                42  
+low block                        9                10  
+overlapping run                 42                50  
+inverted fullback               42                47  
+expected goals                  14                22  
+progressive pass                23                25  
+shot map                        43                49  
+ball recovery                   39                43  
+second ball                     39                43  
+rest defense                    38                43  
+wing overload                    0                44  
+transition phase                44                 0  
+
+
+===== PPMI MATRIX =====
+                      counter attack  high press  xg model  deep block  \
+counter attack                0.000       0.000     0.000      0.000   
+high press                    0.000       0.000     0.000      0.000   
+xg model                      0.000       0.000     0.000      0.000   
+deep block                    0.000       0.000     0.000      0.000   
+false nine                    0.000       0.000     0.000      0.000   
+box midfield                  0.000       0.000     0.000      0.000   
+set piece                     0.000       0.000     0.000      0.000   
+through ball                  0.000       0.000     0.000      0.000   
+pressing trap                 0.000       0.000     0.000      0.000   
+low block                     0.000       0.000     0.000      0.000   
+overlapping run               0.000       0.000     0.000      0.000   
+inverted fullback             0.000       0.000     0.000      0.000   
+expected goals                0.000       0.000     0.000      0.000   
+progressive pass              0.000       0.000     0.000      0.000   
+shot map                      0.000       0.000     0.000      0.000   
+ball recovery                 0.000       0.000     0.000      0.000   
+second ball                   0.000       0.000     0.000      0.000   
+rest defense                  0.000       0.000     0.000      0.000   
+wing overload                 0.000       0.000     0.000      0.000   
+transition phase              0.000       0.000     0.000      0.000   
+
+
+                      false nine  box midfield  set piece  through ball  \
+counter attack              0.000        0.000     0.000        0.000   
+high press                  0.000        0.000     0.000        0.000   
+xg model                    0.000        0.000     0.000        0.000   
+deep block                  0.000        0.000     0.000        0.000   
+false nine                  0.000        0.000     0.000        0.000   
+box midfield                0.000        0.000     0.000        0.000   
+set piece                   0.000        0.000     0.000        0.000   
+through ball                0.000        0.000     0.000        0.000   
+pressing trap               0.000        0.000     0.000        0.000   
+low block                   0.000        0.000     0.000        0.000   
+overlapping run             0.000        0.000     0.000        0.000   
+inverted fullback           0.000        0.000     0.000        0.000   
+expected goals              0.000        0.000     0.000        0.000   
+progressive pass            0.000        0.000     0.000        0.000   
+shot map                    0.000        0.000     0.000        0.000   
+ball recovery               0.000        0.000     0.000        0.000   
+second ball                 0.000        0.000     0.000        0.000   
+rest defense                0.000        0.000     0.000        0.000   
+wing overload               0.000        0.000     0.000        0.000   
+transition phase            0.000        0.000     0.000        0.000   
+
+
+                      pressing trap  low block  overlapping run  \
+counter attack                 0.000     0.000           0.000   
+high press                     0.000     0.000           0.000   
+xg model                       0.000     0.000           0.000   
+deep block                     0.000     0.000           0.000   
+false nine                     0.000     0.000           0.000   
+box midfield                   0.000     0.000           0.000   
+set piece                      0.000     0.000           0.000   
+through ball                   0.000     0.000           0.000   
+pressing trap                  0.000     0.000           0.000   
+low block                      0.000     0.000           0.000   
+overlapping run                0.000     0.000           0.000   
+inverted fullback              0.000     0.000           0.000   
+expected goals                 0.000     0.000           0.000   
+progressive pass               0.000     0.000           0.000   
+shot map                       0.000     0.000           0.000   
+ball recovery                  0.000     0.000           0.000   
+second ball                    0.000     0.000           0.000   
+rest defense                   0.000     0.000           0.000   
+wing overload                  0.000     0.000           0.000   
+transition phase               0.000     0.000           0.000   
+
+
+                      inverted fullback  expected goals  progressive pass  \
+counter attack                     0.000          0.000            0.000   
+high press                         0.000          0.000            0.000   
+xg model                           0.000          0.000            0.000   
+deep block                         0.000          0.000            0.000   
+false nine                         0.000          0.000            0.000   
+box midfield                       0.000          0.000            0.000   
+set piece                          0.000          0.000            0.000   
+through ball                       0.000          0.000            0.000   
+pressing trap                      0.000          0.000            0.000   
+low block                          0.000          0.000            0.000   
+overlapping run                    0.000          0.000            0.000   
+inverted fullback                  0.000          0.000            0.000   
+expected goals                     0.000          0.000            0.000   
+progressive pass                   0.000          0.000            0.000   
+shot map                           0.000          0.000            0.000   
+ball recovery                      0.000          0.000            0.000   
+second ball                        0.000          0.000            0.000   
+rest defense                       0.000          0.000            0.000   
+wing overload                      0.000          0.000            0.000   
+transition phase                   0.000          0.000            0.000   
+
+
+                      shot map  ball recovery  second ball  rest defense  \
+counter attack            0.000         0.000        0.000         0.000   
+high press                0.000         0.000        0.000         0.000   
+xg model                  0.000         0.000        0.000         0.000   
+deep block                0.000         0.000        0.000         0.000   
+false nine                0.000         0.000        0.000         0.000   
+box midfield              0.000         0.000        0.000         0.000   
+set piece                 0.000         0.000        0.000         0.000   
+through ball              0.000         0.000        0.000         0.000   
+pressing trap             0.000         0.000        0.000         0.000   
+low block                 0.000         0.000        0.000         0.000   
+overlapping run           0.000         0.000        0.000         0.000   
+inverted fullback         0.000         0.000        0.000         0.000   
+expected goals            0.000         0.000        0.000         0.000   
+progressive pass          0.000         0.000        0.000         0.000   
+shot map                  0.000         0.000        0.000         0.000   
+ball recovery             0.000         0.000        0.000         0.000   
+second ball               0.000         0.000        0.000         0.000   
+rest defense              0.000         0.000        0.000         0.000   
+wing overload             0.000         0.000        0.000         0.000   
+transition phase          0.000         0.000        0.000         0.000   
+
+
+                      wing overload  transition phase  
+counter attack                 0.000             0.000  
+high press                     0.000             0.000  
+xg model                       0.000             0.000  
+deep block                     0.000             0.000  
+false nine                     0.000             0.000  
+box midfield                   0.000             0.000  
+set piece                      0.000             0.000  
+through ball                   0.000             0.000  
+pressing trap                  0.000             0.000  
+low block                      0.000             0.000  
+overlapping run                0.000             0.000  
+inverted fullback              0.000             0.000  
+expected goals                 0.000             0.000  
+progressive pass               0.000             0.000  
+shot map                       0.000             0.000  
+ball recovery                  0.000             0.000  
+second ball                    0.000             0.000  
+rest defense                   0.000             0.000  
+wing overload                  0.000             0.000  
+transition phase               0.000             0.000
